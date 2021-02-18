@@ -1,4 +1,5 @@
 from requests import get
+from .errors import InvalidAPIKey
 
 class api:
   """
@@ -9,5 +10,7 @@ class api:
     """
     api.key
     """
-    r = requests.get(f"https://api.hypixel.net/player?key={api_key}")
+    r = get(f"https://api.hypixel.net/player?key={api_key}")
+
+    
     

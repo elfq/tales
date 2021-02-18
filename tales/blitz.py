@@ -5,7 +5,7 @@ class blitz:
   """
   Stat tracking for the Blitz minigame.
   """
-
+  
   def wins(username):
       """
       blitz.wins
