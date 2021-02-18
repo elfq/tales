@@ -8,7 +8,7 @@ class api:
 
   def key(api_key):
     """
-    ":api.key: Used to access the API."
+    api.key
     """
     r = requests.get(f"https://api.hypixel.net/player?key={api_key}")
     

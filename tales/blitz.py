@@ -8,21 +8,28 @@ class blitz:
 
   def wins(username):
       """
-      :blitz.wins: Track wins amounts.
+      blitz.wins
       """
       r = requests.get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
       return r.json()["player"]["achievements"]["blitz_wins"]
 
   def kills(username):
       """
-      :blitz.kills: Track kill amount.
+      blitz.kills
       """
       r = requests.get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
       return r.json()["player"]["achievements"]["blitz_kills"]
 
   def coins(username):
       """
-      :blitz.coins: Track coins amounts.
+      blitz.coins
       """
       r = requests.get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
       return r.json()["player"]["achievements"]["blitz_coins"]
+
+  def team_wins(username):
+      """
+      blitz.team_wins
+      """
+      r = requests.get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
+      return r.json()["player"]["achievements"]["blitz_wins_teams"]
