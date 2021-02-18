@@ -1,9 +1,8 @@
-import requests
+from requests import get
 
 class api:
   """
   Used to store the API key.
-
   """
 
   def key(api_key):

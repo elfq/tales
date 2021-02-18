@@ -1,4 +1,4 @@
-import requests
+from requests import get
 from .auth import api
 
 class blitz:
@@ -10,26 +10,26 @@ class blitz:
       """
       blitz.wins
       """
-      r = requests.get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
+      r = get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
       return r.json()["player"]["achievements"]["blitz_wins"]
 
   def kills(username):
       """
       blitz.kills
       """
-      r = requests.get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
+      r = get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
       return r.json()["player"]["achievements"]["blitz_kills"]
 
   def coins(username):
       """
       blitz.coins
       """
-      r = requests.get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
+      r = get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
       return r.json()["player"]["achievements"]["blitz_coins"]
 
   def team_wins(username):
       """
       blitz.team_wins
       """
-      r = requests.get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
+      r = get(f"https://api.hypixel.net/player?key={api.key}&name={username}")
       return r.json()["player"]["achievements"]["blitz_wins_teams"]
