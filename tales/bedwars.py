@@ -1,5 +1,5 @@
 import requests
-from .api_key import api
+from .auth import api
 
 class bedwars:
   """
