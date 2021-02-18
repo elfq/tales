@@ -1,3 +1,3 @@
-from .api.api_key import * 
-from .api.bedwars import * 
-from .api.blitz import * 
+from .api_key import * 
+from .bedwars import * 
+from .blitz import * 
