@@ -17,6 +17,7 @@ python -m pip install -U git+https://github.com/elfq/tales
 
 - Blitz
 - Bedwars
+- Skywars
 
 *more to come*
 
