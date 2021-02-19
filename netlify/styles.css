@@ -99,7 +99,7 @@ a {
 
 .title-marvel {
   font-weight: bolder;
-  color: #020103;
+  color: #FFFF00;
   letter-spacing: -6.7px;
   text-transform: uppercase;
   padding: 0 16px;
@@ -110,11 +110,11 @@ a {
   position: relative;
   display: inline-block;
   font-weight: bold;
-  color: #9b00f5;
+  color: #FFFF00;
   letter-spacing: -4.5px;
   text-transform: uppercase;
   padding: 0 16px;
-  border-color: #9b00f5;
+  border-color: #000000;
   border-top: 8px solid;
   border-bottom: 8px solid;
   line-height: 1;
