@@ -108,14 +108,9 @@ a {
 .title-studios {
   position: relative;
   display: inline-block;
-  font-weight: bold;
-  color: #FFFF00;
   letter-spacing: -4.5px;
   text-transform: uppercase;
   padding: 0 16px;
-  border-color: #000000;
-  border-top: 8px solid;
-  border-bottom: 8px solid;
   line-height: 1;
 }
 
