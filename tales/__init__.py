@@ -1,3 +1,3 @@
 from .auth import * 
-from .bedwars import * 
-from .blitz import * 
+from .player import *
+from .watchdog import *

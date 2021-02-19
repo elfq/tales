@@ -1,5 +1,4 @@
 from requests import get
-from .errors import InvalidAPIKey
 
 class api:
   """
@@ -7,10 +6,10 @@ class api:
   """
 
   def key(api_key):
-    """
-    api.key
-    """
     r = get(f"https://api.hypixel.net/player?key={api_key}")
+
+  def watchdog(api_key):
+    r = get(f"https://api.hypixel.net/watchdog?key={api_key}")
 
     
     
