@@ -9,10 +9,14 @@ https://elf.is-a.dev/docs
 Tales is a new, easy to use hypixel API wrapper designed with python.
 
 ### Installation
-
+**Installing from Github**
 ```
 python -m pip install -U git+https://github.com/elfq/tales
 ```
+**Installing from PyPi**
+ ```
+ pip install tales
+ ```
 ### Coverage
 
 **Minigames**
