@@ -12,7 +12,10 @@ body {
 .titan-background {
   position: absolute;
   width: 100%;
-  background-image: linear-gradient(-180deg, #000000 0%, #200835 100%);
+  background: #000000;
+  background: -webkit-linear-gradient(top, #000000, #6B7501);
+  background: -moz-linear-gradient(top, #000000, #6B7501);
+  background: linear-gradient(to bottom, #000000, #6B7501);
   overflow: hidden;
   z-index: 1;
   /* Make the rubber band scroll not show empty white space */
