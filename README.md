@@ -24,10 +24,10 @@ python -m pip install -U git+https://github.com/elfq/tales
 ### Example
 
 ```py
-from tales import blitz, api
+from tales import player, api
 
 api.key = "Your Hypixel API key"
 
-wins = blitz.wins("Technoblade")
+wins = player.blitz_wins("Technoblade")
 print(wins)
 ```
