@@ -37,3 +37,4 @@ api.key = "Your Hypixel API key"
 wins = player.blitz_wins("Technoblade")
 print(wins)
 ```
+More examples can be found in [the examples folder.](/examples)
