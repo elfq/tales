@@ -23,6 +23,7 @@ python -m pip install -U git+https://github.com/elfq/tales
 
 **Network**
 - Watchdog Info
+- Player info (all coins, kills, etc)
 
 *more to come*
 
