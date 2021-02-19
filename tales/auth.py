@@ -6,10 +6,10 @@ class api:
   """
 
   def key(api_key):
-    r = get(f"https://api.hypixel.net/player?key={api_key}")
+    get(f"https://api.hypixel.net/player?key={api_key}")
 
   def watchdog(api_key):
-    r = get(f"https://api.hypixel.net/watchdog?key={api_key}")
+    get(f"https://api.hypixel.net/watchdogstats?key={api_key}")
 
     
     
