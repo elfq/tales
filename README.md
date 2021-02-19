@@ -13,11 +13,17 @@ Tales is a new, easy to use hypixel API wrapper designed with python.
 ```
 python -m pip install -U git+https://github.com/elfq/tales
 ```
-### Supported API Minigames
+### Coverage
 
+**Minigames**
 - Blitz
 - Bedwars
 - Skywars
+- Skyblock
+
+**Network**
+- Watchdog Info
+- Player Info (all coins, kills, etc)
 
 *more to come*
 
